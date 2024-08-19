@@ -6,7 +6,22 @@ All the codelists utilised for data extraction underwent the rigorous quality co
 
 ## Algorithms for identification
 
-## Growth Hormone Deficiency (GHD)
+## Primary GHD case definition
 GHD was identified in primary care in patients with either:
 1. A clinical [GHD diagnosis]() recorded in primary care.
-2. A diagnosis code for [hypopituitarism]() and two 
+2. A diagnosis code for [hypopituitarism]() and a diagnosis code in both [thyroid hormone]() and [glucocorticoids]().
+
+**AND no codes for:**
+1. [Turner Syndrome]()
+2. Chronic renal insufficiency:
+   [eGFR]() < 60 **AND** [Chronic Kidney Disease (CKD) Stage 5]()
+3. [Children born small for gestational age (SGA)]()
+4. [Prader-Willi Syndrome (PWS)]()
+
+For patients 20 years old or less with GHD recorded.
+
+## Broader GHD case definition
+This will comprise; people with a recorded diagnosis of GHD plus patients with a diagnosis of hypopituitarism without GHD specifically recorded.
+
+
+The index date will be set at the date of the earliest diagnosis code (for [GHD]() or [hypopituitarism]()) or the date of the earliest [somatropin]() issue date where the diagnosis post-dates the first somatropin issue date in the primary care record.
