@@ -10,7 +10,7 @@ All of the conditions and medications mentioned below will use diagnostic codes 
 ## Primary GHD case definition
 GHD was identified in primary care in patients with either:
 1. A clinical [GHD diagnosis](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/GHD%20(Growth%20Hormone%20Deficiency)) recorded in primary care.
-2. A diagnosis code for [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) and a diagnosis code in both [thyroid hormone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Thyroid%20Hormones) and [glucocorticoids](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Oral%20Steroids).
+2. A diagnosis code for [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) and treatment with both [thyroid hormone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Thyroid%20Hormones) and [glucocorticoids](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Oral%20Steroids).
 
 **AND** for patients 20 years old or less with [GHD](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/GHD%20(Growth%20Hormone%20Deficiency)) recorded, **no codes for:**
 1. [Turner Syndrome](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Turner%20Syndrome)
