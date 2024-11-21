@@ -44,6 +44,7 @@ Any of:
 
 ### Time-off work
 - Patients identified with a code for [time off work for illness (issuing of Med 3 certificates)](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Care%20Use/MED3%20Certificate) in primary care.
+- Patients identified with a code for [sick leave](https://github.com/MomentumData/Momentum-Data-Codelists/tree/e72e210b76fc09607124dfe4833d64098d2e524e/Care%20Use/Sick%20Leave) in primary care.
 
 ### Unemployment
 - Patients identified with a code for [unemployment](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Conditions/Unemployment) in primary care.
@@ -52,6 +53,7 @@ Any of:
 Any of:
 - Patients identified with a diagnosis code for [recurrent depressive disorder](https://github.com/MomentumData/Momentum-Data-Codelists/tree/e324df8109e26e9bebd1f891340a12cf711dfa02/Conditions/RDD%20(Recurrent%20Depressive%20Disorder)) in primary care.
 - Patients identified with a diagnosis code for [depressive episode](https://github.com/MomentumData/Momentum-Data-Codelists/tree/e324df8109e26e9bebd1f891340a12cf711dfa02/Conditions/Depressive%20Episodes) **AND** any coded depression treatment* after 365 days in primary care.
+- Patients identified with a diagnosis code for [depressive episode](https://github.com/MomentumData/Momentum-Data-Codelists/tree/e324df8109e26e9bebd1f891340a12cf711dfa02/Conditions/Depressive%20Episodes) **AND** any coded depression treatment* within 6 months in primary care.
 
 *List of depression treatments:
 - [Selective Seratonin Reuptake Inhibitors (SSRIs)](https://github.com/MomentumData/Momentum-Data-Codelists/tree/e324df8109e26e9bebd1f891340a12cf711dfa02/Treatments/SSRIs%20(Selective%20Serotonin%20Reuptake%20Inhibitors))
