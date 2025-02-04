@@ -7,9 +7,8 @@ All the codelists utilised for data extraction underwent the rigorous quality co
 ## Algorithms for identification
 
 ## Primary GHD case definition
-GHD was identified in primary care in patients with either:
-1. A clinical [GHD diagnosis](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/GHD%20(Growth%20Hormone%20Deficiency)) recorded in primary care.
-2. A diagnosis code for [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) and the presence of [levothyroxine](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Thyroid%20Hormones) and steroid treatments ([oral hydrocortisone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Treatments/Oral%20Hydrocortisone) **OR** [oral prednisolone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Treatments/Oral%20Prednisolone)) within six months of the [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) diagnosis code.
+GHD was identified in primary care in patients with:
+A clinical [GHD diagnosis](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/GHD%20(Growth%20Hormone%20Deficiency)) recorded in primary care.
 
 **AND** for patients 20 years old or less with [GHD](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/GHD%20(Growth%20Hormone%20Deficiency)) recorded, **no codes for an alternative indication for growth hormone treatment:**
 1. [Turner Syndrome](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Turner%20Syndrome)
@@ -18,13 +17,14 @@ GHD was identified in primary care in patients with either:
 4. [Children born small for gestational age (SGA)](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/SGA%20(Small%20for%20Gestational%20Age))
 5. [Prader-Willi Syndrome (PWS)](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Prader-Willi%20Snydrome)
 
-Patients diagnosed with childhood onset GHD (prevalent cases only) were only included if they:
+Patients diagnosed with childhood onset GHD were only included if they:
 1. Had a code for a recognised cause of ongoing GHD - [genetic GHD](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/GHD%20(Growth%20Hormone%20Deficiency)/Genetic%20GHD), [genetic hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism/Genetic%20Hypopituitarism), [congenital tumor](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/CAPG%20(Congenital%20Anomaly%20of%20Pituitary%20Gland)) **or** [pituitary tumour](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Pituitary%20Neoplasms)
 2. Had an additional [GHD](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/GHD%20(Growth%20Hormone%20Deficiency)) diagnosis code or [somatropin](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Somatropin) prescription during adulthood.
 3. Had two or more pituitary hormone deficiencies in addition to GHD.
 
-## Broader GHD case definition
-This comprised; patients with a recorded diagnosis of [GHD](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/GHD%20(Growth%20Hormone%20Deficiency)) plus patients with a diagnosis of [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) with or without recorded prescriptions for [levothyroxine](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Thyroid%20Hormones) and steroid treatments ([oral hydrocortisone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Treatments/Oral%20Hydrocortisone) **OR** [oral prednisolone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Treatments/Oral%20Prednisolone)).
+## Probable GHD case definition
+Probably GHD was identified in primary care in patients with:
+A diagnosis code for [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) and the presence of [levothyroxine](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Thyroid%20Hormones) and steroid treatments ([oral hydrocortisone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Treatments/Oral%20Hydrocortisone) **OR** [oral prednisolone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Treatments/Oral%20Prednisolone)) within six months of the [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) diagnosis code.
 
 ## Outcomes
 
