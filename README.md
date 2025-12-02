@@ -23,7 +23,7 @@ Patients diagnosed with childhood onset GHD were only included if they:
 3. Had two or more pituitary hormone deficiencies in addition to GHD.
 
 ## Probable GHD case definition
-Probably GHD was identified in primary care in patients with:
+Probable GHD was identified in primary care in patients with:
 A diagnosis code for [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) and the presence of [levothyroxine](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Treatments/Thyroid%20Hormones) and steroid treatments ([oral hydrocortisone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Treatments/Oral%20Hydrocortisone) **OR** [oral prednisolone](https://github.com/MomentumData/Momentum-Data-Codelists/tree/ee0f37fe7ff624dbf8a4aac9016d29ef9cce8938/Treatments/Oral%20Prednisolone)) within six months of the [hypopituitarism](https://github.com/MomentumData/Momentum-Data-Codelists/tree/c0998ff70f0b96d5a5513556d80f141da01044c4/Conditions/Hypopituitarism) diagnosis code.
 
 ## Outcomes
